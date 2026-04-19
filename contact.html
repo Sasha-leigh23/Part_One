@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Contact Us</h1><br>
+    </header>
+
+    <!---Add a contact form--->
+    <section class="contact-form">
+        <h2>Send Us a Message for a quick response</h2><br>
+        <form action="submit_contact.html" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    <!---Email and input area--->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    <!---Text area--->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    <!---Submit button for the form--->
+    <form action="submit_enquiry.html" method="post">
+        <input type="submit" value="Track Plan">
+    </form>
+    </section>
+    <main>
+        <div class="container">
+            <section class="contact-info">
+                <div class="info-item">
+                  <h2>Get in Touch</h2>
+                  <p>For inquiries, please contact us at:</p><br>
+            <ul>
+            <li>Email: <a href="mailto:info@daplanning.co.za">info@daplanning.co.za</a></li>
+            <li>Phone: <a href="tel:+27111234567">+27 11 123 4567</a></li>
+            <li>Address: 123 Main Street, City, Country</li><br>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.964825657974!2d18.584828739725083!3d-34.070415929640795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4645d30a5737%3A0x65d41e8a83ba0c11!2s10%20Reygersdal%20Ave%2C%20Mitchells%20Plain%2C%20Cape%20Town%2C%207788!5e0!3m2!1sen!2sza!4v1773386482686!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2024 D & A Planning co. All rights reserved.</p>
 </body>
 </html>

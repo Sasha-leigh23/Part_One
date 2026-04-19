@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enquiry - D & A Planning co.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Track Your Plan</h1><br>
+        <p>Enter your erf number to track the status of your plan.</p>
+    </header>
+<!---Create a simple form for tracking the plan--->
+    <form action="submit_enquiry.html" method="post">
+        <label for="ID">ID Number:</label><br>
+        <input type="text" id="ID" name="ID" required><br><br>
+    </form>
+<!---Erf number and input label--->
+    <form action="submit_enquiry.html" method="post">
+        <label for="ErfNumber">Erf Number:</label><br>
+        <input type="text" id="ErfNumber" name="ErfNumber" required><br><br>
+    </form>
+<!---Submit button for the form--->
+    <form action="submit_enquiry.html" method="post">
+        <input type="submit" value="Track Plan">
+    </form>
+    <footer>
+        <p>&copy; 2024 D & A Planning co. All rights reserved.</p>
 </body>
 </html>
