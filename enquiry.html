@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track Your Plan - D & A Planning co.</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-            <h1>D & A Planning co.</h1>
-            <p> Track your plan at any time using your ID or Erf number.</p>
+        <div class="brand-title">
+            <h1>D & A Planning co.</h1><br>
+            <p>Designing your future, one plan at a time.</p>
+        </div>
+        <div class="logo-container">
+            <img src="https://cdn.creativefabrica.com/2022/01/29/DA-Monogram-logo-Design-V6-Graphics-24299555-1-1-580x386.jpg"
+                width="100px" height="100px">
+        </div>
     </header>
-<!---Creation of a simple form for tracking the plan--->
+    <nav class="navigation">
+        <a href="#Home">Home</a></li>
+        <a href="#About">About Us</a></li>
+        <a href="#Track your plan">Track Your Plan</a></li>
+        <a href="#Contact">Contact</a></li>
+    </nav>
+    <div class="container">
+        <section class="track-plan-section">
+            <div class="content-text">
+                <h2>Track Your Plan</h2><br>
+                <p>Enter your erf number to track the status of your plan.</p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+    <!---Creation of a simple form for tracking the plan--->
     <form action="submit_enquiry.html" method="post">
-        <label for="ID">ID Number:</label><br>
-        <input type="text" id="ID" name="ID" required><br><br>
-    </form>
-<!---Erf number and input label--->
+        <label for="cellNumber">Cell number:</label><br>
+        <input type="text" id="cellNumber" name="cellNumber" required><br><br>
+    
+    <!---Erf number and input label--->
     <form action="submit_enquiry.html" method="post">
         <label for="ErfNumber">Erf Number:</label><br>
         <input type="text" id="ErfNumber" name="ErfNumber" required><br><br>
-    </form>
-<!---Submit button for the form--->
+    
+    <!---Submit button for the form--->
     <form action="submit_enquiry.html" method="post">
         <input type="submit" value="Track Plan">
     </form>
+</div>
+
     <footer>
         <p>&copy; 2024 D & A Planning co. All rights reserved.</p>
     </footer>
 </body>
+
 </html>

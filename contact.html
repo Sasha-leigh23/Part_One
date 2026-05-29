@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,46 +8,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
+        <div class="brand-title">
             <h1>D & A Planning co.</h1><br>
+            <p>Designing your future, one plan at a time.</p>
+        </div>
+        <div class="logo-container">
+            <img src="https://cdn.creativefabrica.com/2022/01/29/DA-Monogram-logo-Design-V6-Graphics-24299555-1-1-580x386.jpg"
+                width="100px" height="100px">
+        </div>
     </header>
-    <!---Add a contact form--->
+    <nav class="navigation">
+        <a href="#Home">Home</a></li>
+        <a href="#About">About Us</a></li>
+        <a href="#Track your plan">Track Your Plan</a></li>
+        <a href="#Contact">Contact</a></li>
+    </nav>
+    <main>
+    
     <section class="contact-form">
         <h2>Send Us a Message for a quick response</h2><br>
+
         <form action="submit_contact.html" method="post">
+         <div class="form-group">
+            <!---Name and input area--->
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
-    <!---Email and input area--->
+         </div>
+        <div class="form-group">
+            <!---Email and input area--->
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
-    <!---Text area--->
+            </div>
+        <div class="form-group">
+            <!---Subject and input area--->
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required><br><br>
+            </div>
+        <div class="form-group">
+            <!---Text area--->
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" required></textarea><br><br>
-    <!---Submit button for the form--->
-    <form action="submit_enquiry.html" method="post">
-        <input type="submit" value="Track Plan">
-    </form>
+            </div>
+            <div class="form-group">
+            <!---Submit button for the form--->
+            <input type="submit" value="Send Message">
+            </div>
+        </form>
     </section>
-    <main>
+    
         <div class="container">
             <section class="contact-info">
                 <div class="info-item">
-                  <h2>Contact Information</h2>
-                  <p> For inquiries, please contact us at:</p><br>
-            <ul></ul>
-                <li>Email: <a href="mailto:info@daplanning.co.za">info@daplanning.co.za</a></li>
-                <li>Phone: <a href="tel:+27111234567">+27 11 123 4567</a></li>
-                <li>Address: 10 Reygersdal Avenue, Reygersdal, Cape Town, South Africa</li>
+                    <h2>Contact Information</h2>
+                    <p> For inquiries, please contact us at:</p><br>
+                    <ul>
+                    <li>Email: <a href="mailto:info@daplanning.co.za">info@daplanning.co.za</a></li>
+                    <li>Phone: <a href="tel:+27111234567">+27 73 548 7616</a></li>
+                    <li>Address: 12 Reygersdal Avenue, Cape Town, South Africa</li>
+                    </ul>
                 </div>
-            </ul>
-        </div>
-    </section>
-    </main>
-    <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.1234567890123!2d18.1234567890123!3d-33.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789012345%3A0x123456789012345!2sD%20%26%20A%20Planning%20co.!5e0!3m2!1sen!2sza!4v1234567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+            </section>
+        </main>
+     <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.1234567890123!2d18.1234567890123!3d-33.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789012345%3A0x123456789012345!2sD%20%26%20A%20Planning%20co.!5e0!3m2!1sen!2sza!4v1234567890123"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </iframe>
     <footer>
         <p>&copy; 2024 D & A Planning co. All rights reserved.</p>
     </footer>
+
+
 </body>
+
 </html>
