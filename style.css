@@ -21,7 +21,7 @@ html, body {
 body {
     font-family: Arial, sans-serif;
     color: var(--dark-grey);
-    background-color: #e9ecef; /* Uniform clean background tone */
+    background-color: #e9ecef; 
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ main {
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 25px;
-    border-left: var(--navy-blue) 5px solid; /* Thick brand border indicator */
+    border-left: var(--navy-blue) 5px solid; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -213,7 +213,7 @@ main#main-content > .main-container:first-of-type:hover {
 #About .main-container:hover, 
 #About .container:hover {
     transform: scale(1.02); 
-    box-shadow: 0 10px 30px rgba(0, 31, 63, 0.15); /* Fixed broken 0 alpha shadow from original */
+    box-shadow: 0 10px 30px rgba(0, 31, 63, 0.15); 
 }
 
 
@@ -229,7 +229,7 @@ main#main-content > .main-container:first-of-type:hover {
 .service-item {
     background-color: var(--light-grey);
     border: 1px solid #ddd;
-    border-left: var(--navy-blue) 5px solid !important; /* Forces the uniform left border appearance */
+    border-left: var(--navy-blue) 5px solid !important; 
     border-radius: 8px;
     padding: 20px;
     display: flex;
