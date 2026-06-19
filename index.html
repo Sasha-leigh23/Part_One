@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - D & A Planning co.</title>
+    <title>Home |D & A Planning co.</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
+<header>
         <div class="brand-title">
             <h1>D & A Planning co.</h1><br>
             <p>Designing your future, one plan at a time.</p>
         </div>
         <div class="logo-container">
-            <img src="https://cdn.creativefabrica.com/2022/01/29/DA-Monogram-logo-Design-V6-Graphics-24299555-1-1-580x386.jpg"
-                width="100px" height="100px">
+            <img src="https://cdn.creativefabrica.com/2022/01/29/DA-Monogram-logo-Design-V6-Graphics-24299555-1-1-580x386.jpg" width="100px" height="100px" alt="Logo">
         </div>
     </header>
-    <main>
+
     <nav class="navigation">
-        <a href="#Home">Home</a></li>
-        <a href="#About">About Us</a></li>
-        <a href="#Track your plan">Track Your Plan</a></li>
-        <a href="#Contact">Contact</a></li>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="track.html" class="nav-link">Track Your Plan</a>
+        <a href="contact.html" class="nav-link">Contact</a>
     </nav>
-    <section id="Home">
-        <h2>Welcome to D & A Planning co.</h2><br>
-        <p>The trusted partnership that ensures safe and affordable amendments to your residential plans are met, while
-            offering a range of services from on-site measurements, plan amendments and drawing plans. </p>
-    </section>
 
-    <section class="gallery-container">
-        <div class="gallery-item">
-            <img src="images/image4.jpg"
-                alt="Gallery Image 1">
-        </div>
-        <div class="gallery-item">
-            <img src="images/image6.jpg"
-                alt="Gallery Image 2">
-        </div>
-        <div class="gallery-item">
-            <img src="images/image7.jpg"
-                alt="Gallery Image 3">
-        </div>
-
-        <div id="lightbox" class="lightbox">
-            <span class="close">&times;</span>
-            <img class="lightbox-content" id="lightbox-img">
-        </div>
-    </section>
-</main>
-    <footer>
-        <p>&copy; 2024 D & A Planning co. All rights reserved.</p>
+    <main id="main-content">
+        <section id="Home" class="page-section">
+            <div class="main-container index-main-box">
+                <h2>Welcome to D & A Planning co.</h2><br>
+                <p>At D & A Planning co., we are dedicated to providing top-notch planning services for residential properties at a reasonable cost, making the safety of communities and homes our priority. From minor works to amendments, even the potential of recreating your dream home we are with you every step of the way. Connecting you to the most trust worthy sources for work.</p>
+            </div>
+            
+            <h2 class="section-title">Our Process</h2><br>
+            <section class="gallery-container">
+                <div class="gallery-container-track">
+                    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRlmiic-d-lEnMal41s_wjyUqupTlBNJE9Yrp6He7DQ&s=10" alt="Step 1"></div>
+                    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YiCVstSp9KZCcMCpLC-Zcg73GWCcagK6B_90QeIW5A&s=10" alt="Step 2"></div>
+                    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRMCzCvek41b5_Gm8rrv91CE1RHjozZcMgsgLH_4VODw&s=10" alt="Step 3"></div>
+                    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2aK7PsHkPKyzkSMwZ1yzukrhsh21bSdR4syiTjhgVg&s=10" alt="Step 4"></div>
+                    <div class="gallery-item"><img src="https://thirtyone.co.za/wp-content/uploads/2024/03/Let-us-connect-you-to-Professional-paving-contractors-in-for-quality-installation-repairs-and-maintenance-of-paving.jpg" alt="Step 5"></div>
+                </div>
+                <div id="lightbox" class="lightbox" style="display: none;">
+                    <span class="close">&times;</span>
+                    <img id="lightbox-img" src="" alt="">
+                </div>
+            </section>
+        </section>
+    </main> <footer>
+        <p>&copy; 2026 D & A Planning co. All rights reserved.</p>
     </footer>
+    
+    <script src="script.js"></script>
+
 </body>
 </html>
